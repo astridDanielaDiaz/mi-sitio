@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Web con Texto, Imagen, Video, Tabla y Enlace</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      margin: 40px;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0078d7;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.5;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    video {
+      display: block;
+      margin: 20px auto;
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #0078d7;
+      color: white;
+    }
+
+    a {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+      background-color: #0078d7;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    a:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Mi Primera Página Web</h1>
+
+  <p>
+    Bienvenido a mi página web de ejemplo. En esta página aprenderás cómo incluir
+    diferentes elementos de HTML como texto, una imagen, un video, una tabla y un enlace.
+  </p>
+
+  <!-- Imagen -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg" alt="Flor de ejemplo">
+
+  <!-- Video -->
+  <video controls>
+    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+    Tu navegador no soporta el video.
+  </video>
+
+  <!-- Tabla -->
+  <table>
+    <tr>
+      <th>Producto</th>
+      <th>Categoría</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td>Galletas</td>
+      <td>Alimentos</td>
+      <td>$3.50</td>
+    </tr>
+    <tr>
+      <td>Cuaderno</td>
+      <td>Papelería</td>
+      <td>$1.20</td>
+    </tr>
+    <tr>
+      <td>Audífonos</td>
+      <td>Electrónica</td>
+      <td>$12.00</td>
+    </tr>
+  </table>
+
+  <!-- Enlace externo -->
+  <a href="https://www.google.com" target="_blank">Ir a Google</a>
+
+  <!-- Enlace interno a la segunda página -->
+  <a href="index1.html">Ir a la Segunda Página</a>
+
+</body>
+</html>
+
